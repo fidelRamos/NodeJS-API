@@ -6,7 +6,7 @@ module.exports.IndexApi=(app)=>{
     const router=express.Router();
     router.get("/",(req,res)=>{
         const menu={
-            products:`https:${req.headers.host}/api/produts`,
+            products:`https:${req.headers.host}/api/products`,
             users:`https:${req.headers.host}/api/users`,
             sales:`https:${req.headers.host}/api/sales`,
         }
